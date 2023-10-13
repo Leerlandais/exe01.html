@@ -91,4 +91,27 @@ Pour voir si ça a fonctionné :
 ```bash
 git remote -v
 ```
+## Envoi du projet
+```bash
+git push origin main
+```
+
+## Recuperation du projet
+
+Si on souhaite récupérer que le `.git` (donc l'historique sans les fichiers)
+
+```bash
+git fetch origin main
+```
+
+Si on souhaite toute la branche `main` 
+
+```bash
+git pull origin main 
+```
+
+Si on a effectué des modifications en local non voulues 
+empèchent la récuperation des fichiers, on peut utiliser 
+un `git stash` pour faire une pseudo-sauvegarde et revenir au dernier commit
+avant de refaire un `git pull`
 
