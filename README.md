@@ -23,7 +23,7 @@ ls -a
 
 ```bash
 git add README.md
-
+```
 # Création d'un dépôt GIT
 
 ## Création d'un dépôtGIT en local
@@ -85,9 +85,10 @@ git@github.com:Leerlandais/exe01.html.git
 Nous retournons dans notre console
 ```bash
 git remote add origin git@github.com:Leerlandais/exe01.html.git
+```
 
 Pour voir si ça a fonctionné : 
 ```bash
 git remote -v
-``
+```
 
